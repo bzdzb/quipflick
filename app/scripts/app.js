@@ -9,7 +9,7 @@ angular.module('quipflickApp', [
   .config(function ($routeProvider, $locationProvider, $httpProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'partials/main',
+        templateUrl: 'partials/home',
         controller: 'MainCtrl'
       })
       .when('/login', {

@@ -16,10 +16,18 @@
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css({.tmp,app}) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+    <!-- <link rel="stylesheet" href="styles/main.css"> -->
     <!-- endbuild -->
+    <!-- Custom styles for this template -->
+    <link href="styles/cover.css" rel="stylesheet">
+    <link href="styles/cover-theme.css" rel="stylesheet">
+    <link href="styles/home.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Bitter&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   </head>
-  <body ng-app="quipflickApp">
+  <body ng-app="quipflickApp" style="background: url('../images/bg.jpg') no-repeat center center fixed; -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -66,5 +74,7 @@
         <script src="scripts/services/user.js"></script>
         <script src="scripts/directives/mongooseError.js"></script>
         <!-- endbuild -->
+        <script src="bower_components/bootstrap-cover/dist/js/bootstrap.min.js"></script>
+        <script src="bower_components/bootstrap-cover/dist/docs.js"></script>
 </body>
 </html>

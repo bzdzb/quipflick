@@ -1,0 +1,59 @@
+.cover-heading {
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px #003;
+  margin: 40px auto 10px auto !important;
+  display: block;
+  width: 23em;
+  font-size: 1.6em;
+  font-weight: 200;
+  font-family: 'Bitter', serif;
+}
+
+#logo {
+  width: 215px;
+  height: 257px;
+  margin: 80px auto 0 auto !important;
+  display: block;
+}
+
+.lead {
+  font-size: 1.2em;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #000, 4px 5px 6px #003;
+}
+
+form#searchform[class="form-inline"] {
+  width: 600px
+  margin: 0 auto 0 auto;
+}
+
+.lead {
+  width: 600px;
+  margin: 3px auto 0 auto;
+}
+
+#search {
+  font-size: 1.8em;
+  height: 60px;
+  width: 600px;
+  padding: 8px 10px 8px 16px;
+  margin: 3px auto 0 auto;
+  /* border:1px solid #2a2e31;*/
+  border: 2px solid #3a3f5f;
+  background-color:#2d3035;
+  color: white;
+  opacity: 0.8;
+  display: block;
+}
+
+.masthead-nav li, .masthead-brand {
+  font-family: 'Bitter', serif;
+}
+
+.masthead-nav li {
+  float: left;
+  font-size: 1.2em;
+}
+
+.masthead-nav li a {
+  color: #3a3f5f;
+}
