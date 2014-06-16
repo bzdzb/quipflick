@@ -1,0 +1,24 @@
+<div ng-include="'partials/navbar'"></div>
+
+<div class="jumbotron">
+  <p class="lead">
+    <img src="images/logo.png" alt="QuipFlick"><br>
+    Movie synopses and reviews for the impatient.
+  </p>
+  <p>
+      <input type="search" class="form-control form" placeholder="Search movies.">
+      <br>
+      <button type="button" class="btn btn-default">Action!</button>
+  </p>
+</div>
+
+<div class="row marketing">
+  <div ng-repeat="thing in awesomeThings">
+      <h4>{{thing.name}}</h4>
+      <p>{{thing.info}}</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>♥ from the Yeoman team</p>
+</div>

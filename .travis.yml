@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - '0.10'
+before_script:
+  - 'brew update'
+  - 'brew install mongodb'
+  - 'ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents'
+  - 'launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist'
+  - 'npm install -g bower grunt-cli'
+  - 'bower install'
